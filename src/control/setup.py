@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'camera_pub_node = control.camera_pub_node:main',
+            'snapshot_sub_node = control.snapshot_sub_node:main',
         ],
     },
 )

@@ -24,7 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            
+            #nombre_nodo = nombre_pkg.nombre_nodo_codigo:main
+            'camera_pub_node = vision.camera_pub_node:main',
+            'snapshot_sub_node = vision.snapshot_sub_node:main',
         ],
     },
 )

@@ -9,6 +9,10 @@
 
   <depend>opencv-python</depend>
   <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+
+  <!-- Para convertir entre OpenCV y sensor_msgs/Image -->
+  <exec_depend>cv_bridge</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

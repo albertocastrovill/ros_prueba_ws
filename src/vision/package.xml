@@ -13,6 +13,12 @@
   <test_depend>python3-pytest</test_depend>
 
   <depend>opencv-python<depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+
+  <!-- Para convertir entre OpenCV y sensor_msgs/Image -->
+  <exec_depend>cv_bridge</exec_depend>
+
 
   <export>
     <build_type>ament_python</build_type>
